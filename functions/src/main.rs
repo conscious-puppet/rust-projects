@@ -20,7 +20,8 @@ fn print_labeled_measurement(value: i32, unit_label: char) {
 }
 
 fn another_function(x: i32) {
-    println!("The value of x is: {x}")
+    println!("The value of x is: {x}");
+    print_labeled_measurement(5, 'h');
 }
 
 fn five() -> i32 {
